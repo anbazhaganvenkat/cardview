@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="10dp"
+	android:layout_marginTop="50dp"
+	android:background="#FCFCFC">
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:scrollbars="none"
+		android:fillViewport="true"
+		android:layout_height="fill_parent">
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical">
+			<LinearLayout
+				android:clipToPadding="false"
+				android:gravity="center"
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+				<android.support.v7.widget.CardView
+					android:foreground="?android:attr/selectableItemBackground"
+					android:clickable="true"
+					android:id="@+id/bankcardId"
+					android:layout_width="160dp"
+					android:layout_height="190dp"
+					android:layout_margin="10dp"
+					android:padding="0dp">
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:gravity="center"
+						android:orientation="vertical">
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="130dp"
+							android:gravity="center">
+							<ImageView
+								android:layout_width="match_parent"
+								android:layout_height="130dp"
+								android:id="@+id/sivan"
+								android:src="@drawable/sivan"/>
+						</LinearLayout>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Sivan"
+							android:layout_marginTop="10dp"
+							android:textColor="#000"
+							android:textSize="18dp" />
+					</LinearLayout>
+				</android.support.v7.widget.CardView>
+				<android.support.v7.widget.CardView
+					android:foreground="?android:attr/selectableItemBackground"
+					android:clickable="true"
+					android:id="@+id/bankcardId1"
+					android:layout_width="160dp"
+					android:layout_height="190dp"
+					android:layout_margin="10dp"
+					android:padding="0dp">
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:gravity="center"
+						android:orientation="vertical">
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="130dp"
+							android:gravity="center">
+
+							<ImageView
+								android:layout_width="match_parent"
+								android:layout_height="130dp"
+								android:src="@drawable/muruga" />
+						</LinearLayout>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Murugan"
+							android:layout_marginTop="10dp"
+							android:textColor="#000"
+							android:textSize="18dp" />
+
+					</LinearLayout>
+				</android.support.v7.widget.CardView>
+
+			</LinearLayout>
+			<LinearLayout
+				android:clipToPadding="false"
+				android:gravity="center"
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+				<android.support.v7.widget.CardView
+					android:foreground="?android:attr/selectableItemBackground"
+					android:clickable="true"
+					android:id="@+id/bankcardId2"
+					android:layout_width="160dp"
+					android:layout_height="190dp"
+					android:layout_margin="10dp"
+					android:padding="0dp">
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:gravity="center"
+						android:orientation="vertical">
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="130dp"
+							android:gravity="center">
+
+							<ImageView
+								android:layout_width="match_parent"
+								android:layout_height="130dp"
+								android:src="@drawable/ayyappa" />
+						</LinearLayout>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Ayyappan"
+							android:layout_marginTop="10dp"
+							android:textColor="#000"
+							android:textSize="18dp" />
+					</LinearLayout>
+				</android.support.v7.widget.CardView>
+				<android.support.v7.widget.CardView
+					android:foreground="?android:attr/selectableItemBackground"
+					android:clickable="true"
+					android:id="@+id/bankcardId3"
+					android:layout_width="160dp"
+					android:layout_height="190dp"
+					android:layout_margin="10dp"
+					android:padding="0dp">
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:gravity="center"
+						android:orientation="vertical">
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="130dp"
+							android:gravity="center">
+
+							<ImageView
+								android:layout_width="match_parent"
+								android:layout_height="130dp"
+								android:src="@drawable/pillaiyar" />
+						</LinearLayout>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Vinayagar"
+							android:textColor="#000"
+							android:layout_marginTop="10dp"
+							android:textSize="18dp" />
+
+					</LinearLayout>
+				</android.support.v7.widget.CardView>
+
+			</LinearLayout>
+			<LinearLayout
+				android:clipToPadding="false"
+				android:gravity="center"
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+				<android.support.v7.widget.CardView
+					android:foreground="?android:attr/selectableItemBackground"
+					android:clickable="true"
+					android:id="@+id/bankcardId5"
+					android:layout_width="160dp"
+					android:layout_height="190dp"
+					android:layout_margin="10dp"
+					android:padding="0dp">
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:gravity="center"
+						android:orientation="vertical">
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="130dp"
+							android:gravity="center"
+							>
+							<ImageView
+								android:layout_width="match_parent"
+								android:layout_height="130dp"
+								android:src="@drawable/amman" />
+						</LinearLayout>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Amman"
+							android:layout_marginTop="10dp"
+							android:textColor="#000"
+							android:textSize="18dp" />
+					</LinearLayout>
+				</android.support.v7.widget.CardView>
+				<android.support.v7.widget.CardView
+					android:foreground="?android:attr/selectableItemBackground"
+					android:clickable="true"
+					android:id="@+id/bankcardId4"
+					android:layout_width="160dp"
+					android:layout_height="190dp"
+					android:layout_margin="10dp"
+					android:padding="0dp">
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:gravity="center"
+						android:orientation="vertical">
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="130dp"
+							android:gravity="center">
+
+							<ImageView
+								android:layout_width="match_parent"
+								android:layout_height="130dp"
+								android:src="@drawable/amman_photo" />
+						</LinearLayout>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Amman"
+							android:layout_marginTop="10dp"
+							android:textColor="#000"
+							android:textSize="18dp" />
+					</LinearLayout>
+				</android.support.v7.widget.CardView>
+
+			</LinearLayout>
+			<LinearLayout
+				android:clipToPadding="false"
+				android:gravity="center"
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+				<android.support.v7.widget.CardView
+					android:foreground="?android:attr/selectableItemBackground"
+					android:clickable="true"
+					android:id="@+id/bankcardId7"
+					android:layout_width="160dp"
+					android:layout_height="190dp"
+					android:layout_margin="10dp"
+					android:padding="0dp">
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:gravity="center"
+						android:orientation="vertical">
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="130dp"
+							android:gravity="center"
+							>
+							<ImageView
+								android:layout_width="match_parent"
+								android:layout_height="130dp"
+								android:src="@drawable/perumal" />
+						</LinearLayout>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Perumal"
+							android:layout_marginTop="10dp"
+							android:textColor="#000"
+							android:textSize="18dp" />
+					</LinearLayout>
+				</android.support.v7.widget.CardView>
+				<android.support.v7.widget.CardView
+					android:foreground="?android:attr/selectableItemBackground"
+					android:clickable="true"
+					android:id="@+id/bankcardId8"
+					android:layout_width="160dp"
+					android:layout_height="190dp"
+					android:layout_margin="10dp"
+					android:padding="0dp">
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:gravity="center"
+						android:orientation="vertical">
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="130dp"
+							android:gravity="center">
+
+							<ImageView
+								android:layout_width="match_parent"
+								android:layout_height="130dp"
+								android:src="@drawable/krishna" />
+						</LinearLayout>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Krishna"
+							android:layout_marginTop="10dp"
+							android:textColor="#000"
+							android:textSize="18dp" />
+					</LinearLayout>
+				</android.support.v7.widget.CardView>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>
